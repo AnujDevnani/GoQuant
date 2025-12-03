@@ -1,0 +1,17 @@
+[package]
+name = "ephemeral-vault"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anchor-lang = "0.29"
+anchor-spl = "0.29"
+solana-program = "1.17"
+spl-token = "3.5"
+spl-associated-token-account = "1.1"
+thiserror = "1.0"
+num-traits = "0.2"
+num-derive = "0.4"
+
+[lib]
+crate-type = ["cdylib", "lib"]
